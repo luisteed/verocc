@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     { "src": "index.php", "use": "vercel-php@0.7.2" },
-    { "src": "assets/**", "use": "@vercel/static" }
+    { "src": "recursos/**", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/(.*\.(png|jpg|jpeg|gif|svg|css|js))$", "dest": "/$1" },
